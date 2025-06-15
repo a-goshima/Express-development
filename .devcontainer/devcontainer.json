@@ -1,0 +1,17 @@
+{
+  "name": "Express-development",
+  "dockerComposeFile": "compose.yml",
+  "service": "api",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+    }
+  },
+  "remoteUser": "node",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [8000]
+}
